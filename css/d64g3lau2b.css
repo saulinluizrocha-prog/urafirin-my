@@ -1,0 +1,39 @@
+body {
+  direction: ltr;
+}
+
+@media (min-width: 768px) {
+  .ladi-section .ladi-container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ladi-section .ladi-container {
+    width: 420px;
+  }
+}
+
+@font-face {
+  font-family: UGwcGlucySZWdbGFyLnRZg;
+  src: url("../fonts/poppins-regular-20211227034555.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: UGwcGlucyNZWRpdWudHRm;
+  src: url("../fonts/poppins-medium-20211227034555.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: UGwcGlucyCbxkLnRZg;
+  src: url("../fonts/poppins-bold-20211227034548.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: UGwcGlucyMaWdodElYWxpYydGY;
+  src: url("../fonts/poppins-lightitalic-20211227034555.ttf") format("truetype");
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
